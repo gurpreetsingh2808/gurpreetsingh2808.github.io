@@ -39,6 +39,7 @@ $base-color-hover: darken($base-color, 10%);
 // Define background colors
 $background: #fff;
 $background-alt: #f2f2f5;
+$background-alt-2: #000000;
 
 // Define border colors
 $border: #dcd9d9;
@@ -392,7 +393,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.8);
+    background: rgba($background-alt-2, 0.6);
     z-index: 1;
 }
 
@@ -647,6 +648,7 @@ footer {
     overflow: hidden;
     background: #fff;
     border-radius: 4px;
+    text-align: left;
 }
 
 .project-image {
@@ -665,12 +667,22 @@ footer {
         font-weight: 300;
         color: $heading;
         margin: 0 0 15px 0;
+        padding-left: 22px;
     }
 
     p {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+    }
+
+    li {
+        color: $text;
+        font-size: 0.9em;
+    }
+
+    a {
+        padding-left: 22px;
     }
 }
 
